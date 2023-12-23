@@ -1,0 +1,52 @@
+@import "~bootstrap/scss/bootstrap";
+#sidebarMenu,
+.bg_color {
+    background-color: #f7b801;
+}
+.bg_select {
+    background-color: #3d348b;
+}
+.col_select {
+    color: #3d348b;
+}
+.col_color {
+    color: #f7b801;
+}
+.col_white {
+    color: white;
+}
+.form-check-input:checked {
+    border-color: #3d348b;
+    background-color: #f7b801;
+}
+.custom_table {
+    --bs-table-bg: #f7b801 !important;
+}
+
+.bg_color_gradient {
+    background: rgb(255, 246, 218);
+    background: radial-gradient(
+        circle,
+        rgba(255, 246, 218, 1) 0%,
+        rgba(255, 239, 193, 1) 25%,
+        rgba(255, 236, 178, 1) 50%,
+        rgba(255, 229, 156, 1) 75%,
+        rgba(255, 219, 116, 1) 100%
+    );
+}
+
+.bg_select_gradient {
+    background: rgb(255, 255, 255);
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(217, 212, 255, 1) 25%,
+        rgba(187, 180, 255, 1) 50%,
+        rgba(166, 155, 255, 1) 75%,
+        rgba(134, 120, 255, 1) 100%
+    );
+}
+
+* {
+    font-family: "Nunito", sans-serif;
+}
